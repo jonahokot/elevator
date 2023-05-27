@@ -2,15 +2,19 @@
   "name": "elevator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
-    "dev":"npx nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/main.ts",
+    "test": "mocha --require ts-node/register 'test/**/*.spec.ts'",
+    "dev": "npx nodemon"
+    
   },
   "keywords": [],
   "author": "Jonah Okot",
   "license": "ISC",
   "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
     "nodemon": "^2.0.22",
