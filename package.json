@@ -5,7 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "start": "ts-node src/main.ts",
-    "test": "mocha --require ts-node/register 'test/**/*.spec.ts'",
+    "test": "mocha --require ts-node/register 'test/**/*.test.ts'",
     "dev": "npx nodemon"
     
   },
