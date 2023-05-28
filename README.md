@@ -17,21 +17,24 @@ Set Passengers Leaving: You can set the number of passengers leaving an elevator
 ## Usage
 To use the Elevator System, follow these steps:
 
- Installation: Start by installing the necessary dependencies. Run ```npm install``` to install the required packages.
+ #### Installation: 
+ Start by installing the necessary dependencies. Run ```npm install``` to install the required packages.
 
- Configuration: Open the index.ts file and configure the initial state of the elevators and floors. You can set the number of elevators, their initial positions, and weight limits. You can also define the number of floors and the initial number of passengers waiting on each floor.
+  #### Configuration:
+ Open the index.ts file and configure the initial state of the elevators and floors. You can set the number of elevators, their initial positions, and weight limits. You can also define the number of floors and the initial number of passengers waiting on each floor.
 
- Running the System: Start the elevator system by running ```npm start``` in the terminal. This will launch the program and display a prompt where you can enter commands.
+  #### Running the System:
+ Start the elevator system by running ```npm start``` in the terminal. This will launch the program and display a prompt where you can enter commands.
 
 ### Available Commands:
-call [floor]: Call the nearest available elevator to the specified floor.
-status: Retrieve the status of all elevators and floors.
-set [floor] [passengers]: Set the number of passengers waiting on a specific floor.
-enter [elevator] [passengers]: Set the number of passengers entering an elevator.
-leave [elevator] [passengers]: Set the number of passengers leaving an elevator.
-exit: Exit the program.
+```call [floor]```: <br>Call the nearest available elevator to the specified floor.<br>
+```status```: <br> Retrieve the status of all elevators and floors. <br>
+```set [floor] [passengers]```: <br>Set the number of passengers waiting on a specific floor.<br>
+```enter [elevator] [passengers]```: <br>Set the number of passengers entering an elevator.<br>
+```leave [elevator] [passengers]```:<br> Set the number of passengers leaving an elevator.<br>
+```exit```: <br> Exit the program.
 ### Interacting with the System: 
-Enter the desired command in the prompt to interact with the elevator system. For example, you can call an elevator by typing call 3, set the number of passengers waiting on floor 2 by typing set 2 5, or retrieve the status of all elevators and floors by typing status.
+Enter the desired command in the prompt to interact with the elevator system. For example, you can call an elevator by typing ```call 3```, set the number of passengers waiting on floor 2 by typing ```set 2 5```, or retrieve the status of all elevators and floors by typing ```status```.
 
 ### Testing
 To run the unit tests for the Elevator System, use the following command:
